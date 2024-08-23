@@ -1,15 +1,51 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Nueva York</title>
+
+    <style>
+        header {
+            background-color: burlywood;
+            text-align: center;
+            font-size: large;    
+            font-family: Arial, Helvetica, sans-serif;  
+        }
+
+        main{
+            background-color:blanchedalmond;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        aside{
+            background-color: rgba(255, 192, 203, 0.786);
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        footer{
+            font-family: Arial, Helvetica, sans-serif;
+        } 
+
+        figure{
+            text-align: center;
+        }
+
+        a{
+            color: papayawhip;
+        }
+    </style>
+
 </head>
-<body>
+<body style="background-color: papayawhip;" >
+
+    <audio controls src="NYC_audio1.mp3">Audio NYC</audio>
+
+
     <header>
-        <h1>Nueva York</h1>
+        <marquee behavior="" direction=""><h1>Nueva York</h1></marquee>
         <nav>
-            <ul> <!-- Sección de grupo -->
+            <ul> 
                 <li><a href="#">Distritos</a></li>
                 <li><a href="#">Museos</a></li>
                 <li><a href="#">Teatro</a></li>
@@ -18,14 +54,26 @@
         </nav>
     </header>
 
-    <main>
-    <h2>Información general</h2>
-    <p>Info....</p>
-    </main>
+    <article>
+        <main>
+        <h2>Un millón de experiencias</h2>
+        <p>
+            <blockquote cite="https://www.visittheusa.mx/destination/ciudad-de-nueva-york">
+                Con su horizonte mundialmente reconocido y más de 8,4 millones de personas que la llaman hogar, la ciudad de Nueva York desborda diversidad y emoción, desde las icónicas atracciones que has visto en la televisión y en las películas hasta joyas ocultas que esperan ser descubiertas. Cada uno de los cinco barrios <mark style="background-color: white;"><i>(Bronx, Brooklyn, Manhattan, Queens y Staten Island)</i></mark> tiene una característica propia, mientras que cada vecindario conserva su propia identidad. Las calles fáciles de recorrer a pie y el acceso al metro, a los autobuses y a los taxis hacen que ir de vecindario en vecindario sea pan comido. <br> <i>No importa si es tu primera o tu enésima vez aquí, siempre hay algo nuevo que hacer.</i> </br>
+            </blockquote>
+        </p>
+        <figure>
+            <img src="https://i.pinimg.com/originals/e7/50/38/e75038ae16be9d330cb1f3563833647e.gif" alt="" style="width: 80%; height: auto;" >
+            <figcaption style="font-size: small;">
+                <i>Figura 1. Vista panorámica del distrito de Manhattan de noche</i>
+            </figcaption>
+        </figure>
+        </main>
+    </article>
 
     <aside>
         <h2><strong>¿Sabías que?</strong></h2>
-        <p>Nueva York ha sido un lugar clave para la evolución del arte digital en general, con movimientos artísticos que han abrazado el arte ASCII como una forma de expresión minimalista y accesible.</p>
+        <p>Nueva York ha sido un lugar clave para la evolución del arte digital en general, con movimientos artísticos que han abrazado el arte <em>ASCII</em> como una forma de expresión minimalista y accesible.</p>
         <pre> 
          _ __   _____      ___   _  ___  _ __| | __
         | '_ \ / _ \ \ /\ / / | | |/ _ \| '__| |/ /
@@ -38,7 +86,7 @@
     </aside>
 
     <footer>
-        <h3>Derechos reservados IvanaPau Inc&copy;</h2>
+        <h4>Derechos reservados IvanaPau Inc&copy;</h4>
         <address>
             <a href="mailto:ivanapaulina39@gmail.com">Enviamé un correo</a>
             <a href="tel:+8129000014">Llama a mi oficina &phone;</a>
