@@ -1,0 +1,73 @@
+/* Selectores de tipo */
+header {
+    background-color: burlywood;
+    text-align: center;
+    font-size: large;    
+    font-family: Arial, Helvetica, sans-serif;  
+}
+
+main{
+    background-color:blanchedalmond;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-color: papayawhip;
+}
+
+aside{
+    background-color: rgba(255, 192, 203, 0.786);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+footer{
+    font-family: Arial, Helvetica, sans-serif;
+} 
+
+figure{
+    text-align: center;
+}
+
+figcaption{
+    font-size: small;
+}
+
+/* Selector por id */
+#abrebiacion{
+    color: crimson;
+}
+
+#cita{
+    text-align: center;
+}
+
+/* Selector por clase  */
+.outline{
+    font-size: 200px ;
+}
+
+/* Selector por atributo estoy seleccionando los links que terminen html */
+a[href$=".html"] {
+    color: papayawhip;
+}
+
+/* Pseudoclase para que al pasar el mouse sobre los h2, les pone un borde */
+h2:hover{
+    border: 2px solid white;
+}
+
+/* Pseudoclase para que los links no visitados los ponga en color blanco */
+a:link{
+    color: black ;
+}
+
+/* Pseudoclase para que los links visitados los ponga en color blanco */
+a:visited{
+    color:brown
+}
+
+/* Flotar elementos html, se ajustaron para que aparezcan en la misma fila */
+nav ul li{
+    float: left;
+    width: 25%;
+}
